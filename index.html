@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Cost of Intelligence — AI's Impact</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="nav-leaf">&#9632;</span> The Cost of Intelligence
+    </div>
+    <div class="nav-links">
+      <a href="#" class="nav-link active" data-page="page-impacts" onclick="showPage('page-impacts', this)">Impacts</a>
+      <a href="#" class="nav-link" data-page="page-solutions" onclick="showPage('page-solutions', this)">Solutions</a>
+      <a href="#" class="nav-link" data-page="page-timeline" onclick="showPage('page-timeline', this)">Timeline &amp; Budget</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ PAGE 1: IMPACTS ═══════════════════════════════ -->
+  <div id="page-impacts" class="page active">
+
+    <header class="hero">
+      <div class="hero-content">
+        <p class="hero-eyebrow">A Critical Look at Artificial Intelligence</p>
+        <h1 class="hero-title">The Cost of Intelligence</h1>
+        <p class="hero-sub">Every search query, every generated image, every chatbot response — they carry a hidden weight on our environment and on our minds.</p>
+      </div>
+      <div class="hero-badge">2016–2026</div>
+    </header>
+
+    <!-- SECTION 1: ENVIRONMENTAL -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-number">01</div>
+        <div>
+          <h2 class="section-title">Environmental Ramifications</h2>
+          <p class="section-desc">The carbon, water, and energy footprint of AI systems operating at global scale.</p>
+        </div>
+      </div>
+
+      <div class="cards-grid">
+
+        <div class="impact-card">
+          <div class="card-image-box env-border">
+            <div class="image-label">Data Center Energy Consumption</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Massive Energy Demand</h3>
+            <p>AI data centers consumed an estimated <strong>460 terawatt-hours</strong> of electricity in 2022 — roughly 2% of global electricity use. Training a single large language model can emit as much carbon as five average American cars over their entire lifetimes. The International Energy Agency projects data center electricity use could double by 2026, driven substantially by AI workloads.</p>
+          </div>
+        </div>
+
+        <div class="impact-card">
+          <div class="card-image-box env-border">
+            <div class="image-label">Water Consumption</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Hidden Water Costs</h3>
+            <p>Data centers rely on <strong>evaporative cooling systems</strong> that consume enormous volumes of fresh water. A 2023 University of California study estimated that training GPT-3 required approximately 700,000 liters of fresh water. Globally, data centers already consume around 300–400 billion gallons of water annually — a figure accelerating with AI adoption.</p>
+          </div>
+        </div>
+
+        <div class="impact-card">
+          <div class="card-image-box env-border">
+            <div class="image-label">Carbon Emissions</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Carbon Footprint of Training &amp; Inference</h3>
+            <p>Researchers at the University of Massachusetts Amherst calculated that training a single large NLP model produces roughly <strong>626,000 pounds of CO₂</strong> — nearly five times the lifetime emissions of the average American car. Inference (running the model at scale) adds ongoing emissions that dwarf the original training cost over time.</p>
+          </div>
+        </div>
+
+        <div class="impact-card">
+          <div class="card-image-box env-border">
+            <div class="image-label">E-Waste &amp; Hardware Cycles</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Hardware Obsolescence</h3>
+            <p>The rapid pace of AI hardware advancement — from GPU generations to specialized TPUs — accelerates <strong>electronic waste cycles</strong>. The UN Global E-waste Monitor estimated that the world generated 62 million metric tons of e-waste in 2022, a figure projected to grow 82% by 2030. AI's demand for cutting-edge chips shortens hardware replacement cycles significantly.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="section-divider"></div>
+
+    <!-- SECTION 2: COGNITIVE -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-number">02</div>
+        <div>
+          <h2 class="section-title">Cognitive Ramifications</h2>
+          <p class="section-desc">How AI tools are reshaping human attention, memory, critical thinking, and mental well-being.</p>
+        </div>
+      </div>
+
+      <div class="cards-grid">
+
+        <div class="impact-card">
+          <div class="card-image-box cog-border">
+            <div class="image-label">Cognitive Offloading</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">The Outsourcing of Thinking</h3>
+            <p>Cognitive offloading — delegating mental tasks to external devices — is accelerating. Studies show that <strong>reliance on AI for problem-solving reduces engagement of working memory</strong> and reduces the retention of information processed. A 2023 MIT study found that professionals who regularly used AI writing assistants showed measurably reduced independent compositional skill over 6 months.</p>
+          </div>
+        </div>
+
+        <div class="impact-card">
+          <div class="card-image-box cog-border">
+            <div class="image-label">Attention &amp; Focus Degradation</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Shrinking Attention Spans</h3>
+            <p>AI-curated content feeds — optimized for engagement — exploit dopamine reward pathways in ways that fragment sustained attention. Research published in <em>Nature Human Behaviour</em> (2019) documented a measurable <strong>decline in collective attention spans</strong> across social media platforms. AI-personalization has since amplified these effects, making deep, uninterrupted focus increasingly difficult to sustain.</p>
+          </div>
+        </div>
+
+        <div class="impact-card">
+          <div class="card-image-box cog-border">
+            <div class="image-label">Academic Integrity &amp; Critical Thinking</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Erosion of Deep Learning</h3>
+            <p>Students who use AI to complete assignments <strong>bypass the productive struggle</strong> that builds long-term knowledge. The Stanford Graduate School of Education has documented how AI tool use, without structured guidance, correlates with lower critical reasoning scores on standardized assessments. Academic integrity violations involving AI rose over 200% in U.S. universities between 2022 and 2024.</p>
+          </div>
+        </div>
+
+        <div class="impact-card">
+          <div class="card-image-box cog-border">
+            <div class="image-label">Misinformation &amp; Reality Distortion</div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Hallucination &amp; False Confidence</h3>
+            <p>AI systems regularly generate <strong>plausible but factually incorrect information</strong> — a phenomenon called "hallucination." When users accept AI outputs uncritically, this erodes epistemic hygiene. A Reuters Institute study (2023) found that 62% of adults in six countries could not reliably distinguish AI-generated misinformation from verified news, raising deep concerns about democratic discourse and individual reasoning.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SOURCES -->
+    <section class="sources-section">
+      <h3 class="sources-title">Sources &amp; References</h3>
+      <ol class="sources-list">
+        <li>International Energy Agency. (2024). <em>Electricity 2024: Analysis and Forecast to 2026.</em> <a href="https://www.iea.org/reports/electricity-2024" target="_blank">iea.org</a></li>
+        <li>Strubell, E., Ganesh, A., &amp; McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. <em>ACL 2019.</em> University of Massachusetts Amherst.</li>
+        <li>Li, P., Yang, J., Islam, M. A., &amp; Ren, S. (2023). Making AI Less "Thirsty": Uncovering and Addressing the Secret Water Footprint of AI Models. <em>University of California, Riverside.</em></li>
+        <li>UN Global E-waste Monitor 2024. United Nations Institute for Training and Research (UNITAR).</li>
+        <li>Risko, E. F., &amp; Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences, 20</em>(9), 676–688.</li>
+        <li>Lorenz-Spreen, P., et al. (2019). Accelerating dynamics of collective attention. <em>Nature Communications, 10</em>, 1759.</li>
+        <li>Reuters Institute for the Study of Journalism. (2023). <em>Digital News Report 2023.</em> University of Oxford.</li>
+        <li>Stanford Graduate School of Education. (2023). <em>AI in Education: Early Learning Outcomes Report.</em></li>
+        <li>Ngo, H. (2023). Measured impacts of AI coding assistants on software developer productivity. <em>MIT Computer Science &amp; AI Lab.</em></li>
+      </ol>
+    </section>
+
+  </div>
+  <!-- END PAGE 1 -->
+
+
+  <!-- ═══════════════════════════════ PAGE 2: SOLUTIONS ═══════════════════════════════ -->
+  <div id="page-solutions" class="page">
+
+    <header class="hero hero--solutions">
+      <div class="hero-content">
+        <p class="hero-eyebrow">For Students, Educators &amp; Citizens</p>
+        <h1 class="hero-title">Realistic Solutions</h1>
+        <p class="hero-sub">Actionable strategies to reduce AI's environmental footprint and protect cognitive health — with evidence-backed rationale.</p>
+      </div>
+      <div class="hero-badge">Act Now</div>
+    </header>
+
+    <!-- ENVIRONMENTAL SOLUTIONS -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-number">01</div>
+        <div>
+          <h2 class="section-title">Environmental Solutions</h2>
+          <p class="section-desc">Reducing AI's carbon, energy, and hardware impact through conscious choices and advocacy.</p>
+        </div>
+      </div>
+
+      <div class="solutions-list">
+
+        <div class="solution-card">
+          <div class="solution-badge env-badge">Environmental</div>
+          <div class="solution-card-inner">
+            <div class="solution-card-image env-border">
+              <div class="image-label">Mindful AI Usage</div>
+            </div>
+            <div class="solution-body">
+              <h3 class="solution-title">Practice Intentional AI Use</h3>
+              <p><strong>For students:</strong> Before using an AI tool, ask whether the task actually requires it. Reserve AI for synthesis, brainstorming, and accessibility — not routine lookups or tasks you can do independently. Batching queries (asking one comprehensive question instead of five small ones) also reduces inference calls.</p>
+              <div class="rationale-box">
+                <span class="rationale-label">Rationale</span>
+                <p>Each AI query consumes energy. A ChatGPT query uses roughly 10x the electricity of a Google search. Reducing unnecessary inference is the single fastest way individuals can shrink their AI carbon footprint. The IEA estimates that behavioral changes in AI usage could reduce data center energy consumption by 8–12%.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-badge env-badge">Environmental</div>
+          <div class="solution-card-inner">
+            <div class="solution-card-image env-border">
+              <div class="image-label">Choose Green AI Platforms</div>
+            </div>
+            <div class="solution-body">
+              <h3 class="solution-title">Advocate for &amp; Select Renewable-Powered AI</h3>
+              <p><strong>For students:</strong> Research which AI platforms and cloud providers use renewable energy. Google, Microsoft, and others publish sustainability reports. Encourage your institution to adopt AI tools from providers with verified carbon-neutral or net-zero commitments. Write to university IT departments requesting greener procurement policies.</p>
+              <div class="rationale-box">
+                <span class="rationale-label">Rationale</span>
+                <p>Data centers powered by renewables can cut AI-related emissions by up to 90%. Institutional procurement decisions aggregate individual impact — one university switching AI providers is equivalent to thousands of individual behavior changes. Consumer pressure has already shifted cloud providers: Amazon AWS, Google Cloud, and Microsoft Azure all now offer renewable energy matching options.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-badge env-badge">Environmental</div>
+          <div class="solution-card-inner">
+            <div class="solution-card-image env-border">
+              <div class="image-label">Extend Hardware Lifecycles</div>
+            </div>
+            <div class="solution-body">
+              <h3 class="solution-title">Repair, Refurbish, Recycle Electronics</h3>
+              <p><strong>For students:</strong> Resist upgrading devices unnecessarily. Use campus repair programs, donate working electronics, and recycle responsibly through certified e-waste programs (e.g., Call2Recycle, Best Buy recycling). Opt for refurbished laptops when upgrading — manufacturing a new laptop produces 70–80% of its lifetime carbon emissions upfront.</p>
+              <div class="rationale-box">
+                <span class="rationale-label">Rationale</span>
+                <p>Manufacturing a single smartphone generates 70kg of CO₂ — more than a full week of average American electricity use. Extending device life by just two years can cut its lifetime emissions by up to 30%. Collective action by students on campuses, who represent a high-turnover hardware demographic, could divert millions of devices from premature obsolescence.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- COGNITIVE SOLUTIONS -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-number">02</div>
+        <div>
+          <h2 class="section-title">Cognitive Solutions</h2>
+          <p class="section-desc">Protecting attention, reasoning, and intellectual independence in an AI-saturated world.</p>
+        </div>
+      </div>
+
+      <div class="solutions-list">
+
+        <div class="solution-card">
+          <div class="solution-badge cog-badge">Cognitive</div>
+          <div class="solution-card-inner">
+            <div class="solution-card-image cog-border">
+              <div class="image-label">AI-Free Draft First</div>
+            </div>
+            <div class="solution-body">
+              <h3 class="solution-title">The "Draft First" Rule</h3>
+              <p><strong>For students:</strong> Commit to always writing a first draft, outline, or solution attempt before engaging any AI tool. Use AI in the revision, research verification, or formatting phase — not the generative phase. Professors can reinforce this by requiring process portfolios that show pre-AI drafts alongside final work.</p>
+              <div class="rationale-box">
+                <span class="rationale-label">Rationale</span>
+                <p>The productive struggle of generating original ideas is where deep learning and schema formation occur. Cognitive science research consistently shows that retrieval practice — the act of trying to recall or construct knowledge without prompting — is one of the highest-yield learning strategies. Bypassing this phase with AI eliminates the very cognitive events that build durable knowledge and analytical skill.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-badge cog-badge">Cognitive</div>
+          <div class="solution-card-inner">
+            <div class="solution-card-image cog-border">
+              <div class="image-label">Critical Verification Habits</div>
+            </div>
+            <div class="solution-body">
+              <h3 class="solution-title">Verify Everything AI Tells You</h3>
+              <p><strong>For students:</strong> Treat every AI output as a rough draft requiring verification, not a final source. Cross-reference AI claims with peer-reviewed sources, primary documents, or expert-authored materials. Practice "lateral reading" — the technique used by professional fact-checkers — by opening multiple tabs to verify a claim before accepting it.</p>
+              <div class="rationale-box">
+                <span class="rationale-label">Rationale</span>
+                <p>AI language models hallucinate with confident fluency — they cannot know what they don't know. Studies at Stanford's Civic Online Reasoning project show that students who practice lateral reading are significantly better at evaluating source credibility. The habit of verification is itself a high-order cognitive skill; practicing it with AI outputs builds epistemic resilience that generalizes to all information contexts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-badge cog-badge">Cognitive</div>
+          <div class="solution-card-inner">
+            <div class="solution-card-image cog-border">
+              <div class="image-label">Digital Detox Scheduling</div>
+            </div>
+            <div class="solution-body">
+              <h3 class="solution-title">Scheduled Deep Focus Time</h3>
+              <p><strong>For students:</strong> Block 90-minute "AI-free" study sessions daily using the Pomodoro or time-blocking methods. Disable AI assistants, notifications, and algorithmic feeds during these sessions. Use physical textbooks, handwritten notes, and analog problem-solving during these blocks. Cal Newport's "Deep Work" protocol is a research-backed framework for this approach.</p>
+              <div class="rationale-box">
+                <span class="rationale-label">Rationale</span>
+                <p>Neuroplasticity research shows that sustained, undistracted focus is required for the formation of strong synaptic pathways associated with expert-level thinking. The prefrontal cortex — responsible for complex reasoning — requires extended engagement to operate at full capacity. Regular "AI-free" cognitive exercise is analogous to physical exercise: it builds capacity that AI-assisted shortcuts cannot replace.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="solution-card">
+          <div class="solution-badge cog-badge">Cognitive</div>
+          <div class="solution-card-inner">
+            <div class="solution-card-image cog-border">
+              <div class="image-label">AI Literacy Education</div>
+            </div>
+            <div class="solution-body">
+              <h3 class="solution-title">Demand AI Literacy Curricula</h3>
+              <p><strong>For students:</strong> Advocate for AI literacy courses at your institution — covering how models work, their limitations, bias, and environmental cost. Join or start a campus AI ethics club. Petition for institutional AI use policies that protect academic integrity without banning beneficial use. Organizations like AI4K12 offer free frameworks for educators.</p>
+              <div class="rationale-box">
+                <span class="rationale-label">Rationale</span>
+                <p>Informed users make better decisions about when and how to use AI. Research in media literacy consistently shows that education about how persuasive or generative technologies work significantly reduces harmful effects. A generation that understands AI's limitations, biases, and costs will make more discerning choices — both individually and as future policy-makers and technologists.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+  <!-- END PAGE 2 -->
+
+
+  <!-- ═══════════════════════════════ PAGE 3: TIMELINE & BUDGET ═══════════════════════════════ -->
+  <div id="page-timeline" class="page">
+
+    <header class="hero hero--timeline">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Implementation Roadmap</p>
+        <h1 class="hero-title">Timeline &amp; Budget</h1>
+        <p class="hero-sub">A phased, realistic roadmap for students to implement the solutions outlined — with estimated costs (mostly free) and time commitments.</p>
+      </div>
+      <div class="hero-badge">Your Plan</div>
+    </header>
+
+    <!-- BUDGET OVERVIEW CARDS -->
+    <section class="section">
+      <h2 class="section-title" style="margin-bottom: 1.5rem;">Budget Overview</h2>
+      <div class="budget-overview-grid">
+        <div class="budget-card">
+          <div class="budget-amount">$0</div>
+          <div class="budget-label">Behavioral Changes</div>
+          <p class="budget-desc">Intentional AI use, draft-first habits, digital detox scheduling, lateral reading — all cost nothing.</p>
+        </div>
+        <div class="budget-card">
+          <div class="budget-amount">$0–$50</div>
+          <div class="budget-label">Refurbished Device Savings</div>
+          <p class="budget-desc">Choosing certified refurbished over new saves $200–$600 per device and cuts manufacturing emissions.</p>
+        </div>
+        <div class="budget-card">
+          <div class="budget-amount">$0</div>
+          <div class="budget-label">Advocacy &amp; Literacy</div>
+          <p class="budget-desc">Petitioning institutions, joining AI ethics clubs, using free curricula (AI4K12, Khan Academy) costs nothing.</p>
+        </div>
+        <div class="budget-card">
+          <div class="budget-amount">$0</div>
+          <div class="budget-label">E-Waste Recycling</div>
+          <p class="budget-desc">Campus recycling programs and Best Buy drop-offs are free. Some programs offer gift cards for device trade-ins.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section">
+      <h2 class="section-title" style="margin-bottom: 0.5rem;">Implementation Timeline</h2>
+      <p class="section-desc" style="margin-bottom: 2.5rem;">A semester-to-year roadmap for students adopting these practices.</p>
+
+      <div class="timeline">
+
+        <div class="timeline-phase">
+          <div class="timeline-phase-header">
+            <div class="timeline-dot phase-1-dot"></div>
+            <div class="timeline-phase-meta">
+              <span class="timeline-phase-label">Phase 1</span>
+              <span class="timeline-phase-period">Weeks 1–2 &nbsp;|&nbsp; Cost: $0</span>
+            </div>
+          </div>
+          <div class="timeline-phase-title">Awareness &amp; Audit</div>
+          <div class="timeline-items">
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Self-audit your AI usage</strong>
+                <p>Log every AI tool you use for one week — which tools, how often, and for what tasks. Estimate your weekly inference count. This baseline is your starting point.</p>
+                <span class="timeline-cost">Time: ~20 min/day &nbsp;|&nbsp; Cost: $0</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Research your platforms' sustainability</strong>
+                <p>Look up sustainability reports for AI tools you use. Note whether they run on renewable energy. Identify one greener alternative for your most-used tool.</p>
+                <span class="timeline-cost">Time: 1–2 hrs total &nbsp;|&nbsp; Cost: $0</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Check your devices' e-waste readiness</strong>
+                <p>List devices you own. Identify any that are unused or near end-of-life. Find your nearest certified e-recycler (EPA eCycler search).</p>
+                <span class="timeline-cost">Time: 30 min &nbsp;|&nbsp; Cost: $0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-connector"></div>
+
+        <div class="timeline-phase">
+          <div class="timeline-phase-header">
+            <div class="timeline-dot phase-2-dot"></div>
+            <div class="timeline-phase-meta">
+              <span class="timeline-phase-label">Phase 2</span>
+              <span class="timeline-phase-period">Weeks 3–6 &nbsp;|&nbsp; Cost: $0</span>
+            </div>
+          </div>
+          <div class="timeline-phase-title">Habit Formation</div>
+          <div class="timeline-items">
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Implement the "Draft First" rule</strong>
+                <p>For every assignment, write or outline your own draft before opening any AI tool. Use a timer app to enforce 45-minute unassisted work blocks.</p>
+                <span class="timeline-cost">Time: Ongoing &nbsp;|&nbsp; Cost: $0</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Schedule three AI-free study sessions per week</strong>
+                <p>Block 90-minute deep work sessions in your calendar. Put your phone in another room. Use physical books or downloaded PDFs (offline). Track how your focus changes over 4 weeks.</p>
+                <span class="timeline-cost">Time: 4.5 hrs/week &nbsp;|&nbsp; Cost: $0</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Adopt lateral reading for AI outputs</strong>
+                <p>For any AI-generated claim you plan to use, open at least two additional tabs to verify it from original sources. Build this into your workflow as a non-negotiable step.</p>
+                <span class="timeline-cost">Time: +10–15 min per research session &nbsp;|&nbsp; Cost: $0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-connector"></div>
+
+        <div class="timeline-phase">
+          <div class="timeline-phase-header">
+            <div class="timeline-dot phase-3-dot"></div>
+            <div class="timeline-phase-meta">
+              <span class="timeline-phase-label">Phase 3</span>
+              <span class="timeline-phase-period">Months 2–3 &nbsp;|&nbsp; Cost: $0–$50</span>
+            </div>
+          </div>
+          <div class="timeline-phase-title">Action &amp; Advocacy</div>
+          <div class="timeline-items">
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Recycle or donate unused electronics</strong>
+                <p>Drop off unused devices at a campus recycling day or certified e-recycler. Consider donating working devices to a local school or nonprofit. Some programs pay $10–$50 for working older devices.</p>
+                <span class="timeline-cost">Time: 1–2 hrs &nbsp;|&nbsp; Cost: $0 (potential income)</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Start or join an AI ethics student group</strong>
+                <p>Check if your campus has an AI ethics club, sustainability committee, or tech policy group. If not, start one — most universities provide free meeting space and small event grants ($50–$200) for registered student organizations.</p>
+                <span class="timeline-cost">Time: 2–4 hrs/month &nbsp;|&nbsp; Cost: $0 (grants available)</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Petition for AI literacy curriculum</strong>
+                <p>Draft a one-page proposal using AI4K12 or UNESCO's AI ethics frameworks as models. Present to your department head or student government. This costs nothing but time and pays dividends across your campus.</p>
+                <span class="timeline-cost">Time: 3–5 hrs to draft &nbsp;|&nbsp; Cost: $0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-connector"></div>
+
+        <div class="timeline-phase">
+          <div class="timeline-phase-header">
+            <div class="timeline-dot phase-4-dot"></div>
+            <div class="timeline-phase-meta">
+              <span class="timeline-phase-label">Phase 4</span>
+              <span class="timeline-phase-period">Months 4–12 &nbsp;|&nbsp; Cost: $0–$600 saved</span>
+            </div>
+          </div>
+          <div class="timeline-phase-title">Long-Term Integration</div>
+          <div class="timeline-items">
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Next device upgrade: choose refurbished</strong>
+                <p>When your next device replacement is needed, buy certified refurbished from Apple Certified, Dell Refurbished, or Back Market. Average savings: $200–$600 vs. new. Carbon savings: up to 40% per device lifecycle.</p>
+                <span class="timeline-cost">Time: 1–2 hrs research &nbsp;|&nbsp; Cost: Savings of $200–$600</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item-dot"></div>
+              <div class="timeline-item-content">
+                <strong>Conduct a semester-end impact review</strong>
+                <p>Compare your AI usage log from Phase 1 to current habits. Estimate the queries reduced, hours of deep focus gained, and devices extended. Share findings with your AI ethics group or in a class presentation.</p>
+                <span class="timeline-cost">Time: 1–2 hrs &nbsp;|&nbsp; Cost: $0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SUMMARY TABLE -->
+    <section class="section">
+      <h2 class="section-title" style="margin-bottom: 1.5rem;">At-a-Glance Summary</h2>
+      <div class="summary-table-wrap">
+        <table class="summary-table">
+          <thead>
+            <tr>
+              <th>Solution</th>
+              <th>Category</th>
+              <th>Timeline</th>
+              <th>Cost</th>
+              <th>Difficulty</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Intentional AI use / query batching</td>
+              <td><span class="badge env-badge-sm">Environmental</span></td>
+              <td>Immediate</td>
+              <td>$0</td>
+              <td><span class="difficulty easy">Easy</span></td>
+            </tr>
+            <tr>
+              <td>Choose renewable-powered AI platforms</td>
+              <td><span class="badge env-badge-sm">Environmental</span></td>
+              <td>Weeks 1–2</td>
+              <td>$0</td>
+              <td><span class="difficulty easy">Easy</span></td>
+            </tr>
+            <tr>
+              <td>Recycle / donate unused electronics</td>
+              <td><span class="badge env-badge-sm">Environmental</span></td>
+              <td>Months 2–3</td>
+              <td>$0</td>
+              <td><span class="difficulty easy">Easy</span></td>
+            </tr>
+            <tr>
+              <td>Buy refurbished on next upgrade</td>
+              <td><span class="badge env-badge-sm">Environmental</span></td>
+              <td>Month 4–12</td>
+              <td>$0 (saves $200–$600)</td>
+              <td><span class="difficulty easy">Easy</span></td>
+            </tr>
+            <tr>
+              <td>Draft-first rule for assignments</td>
+              <td><span class="badge cog-badge-sm">Cognitive</span></td>
+              <td>Weeks 3–6</td>
+              <td>$0</td>
+              <td><span class="difficulty medium">Moderate</span></td>
+            </tr>
+            <tr>
+              <td>Lateral reading / AI verification</td>
+              <td><span class="badge cog-badge-sm">Cognitive</span></td>
+              <td>Weeks 3–6</td>
+              <td>$0</td>
+              <td><span class="difficulty medium">Moderate</span></td>
+            </tr>
+            <tr>
+              <td>Scheduled AI-free deep work sessions</td>
+              <td><span class="badge cog-badge-sm">Cognitive</span></td>
+              <td>Weeks 3–6</td>
+              <td>$0</td>
+              <td><span class="difficulty medium">Moderate</span></td>
+            </tr>
+            <tr>
+              <td>Join / start AI ethics student group</td>
+              <td><span class="badge cog-badge-sm">Cognitive</span></td>
+              <td>Months 2–3</td>
+              <td>$0</td>
+              <td><span class="difficulty hard">Challenging</span></td>
+            </tr>
+            <tr>
+              <td>Petition for AI literacy curriculum</td>
+              <td><span class="badge cog-badge-sm">Cognitive</span></td>
+              <td>Months 2–3</td>
+              <td>$0</td>
+              <td><span class="difficulty hard">Challenging</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+  <!-- END PAGE 3 -->
+
+  <footer class="site-footer">
+    <p>The Cost of Intelligence &nbsp;|&nbsp; An educational resource on AI's environmental &amp; cognitive impacts</p>
+    <p style="margin-top: 0.5rem; font-size: 0.8rem;">Content compiled from peer-reviewed research and institutional reports. For educational purposes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
